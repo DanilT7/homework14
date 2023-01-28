@@ -13,9 +13,12 @@ function summ() {
     }
 }
 
-const sum = summ();
+const calcSum = summ();
 
-console.log(sum(3));
-console.log(sum(5));
-console.log(sum(20));
+console.log(calcSum(3));
+console.log(calcSum(5));
+console.log(calcSum(20));
+
+
+
 
